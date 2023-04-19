@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		526B7A4B2838C81000B0F6FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526B7A4A2838C81000B0F6FD /* Assets.xcassets */; };
+		526B7A4E2838C81000B0F6FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526B7A4D2838C81000B0F6FD /* Preview Assets.xcassets */; };
+		526B7A582838C81000B0F6FD /* SiruDoorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526B7A572838C81000B0F6FD /* SiruDoorTests.swift */; };
+		526B7A622838C81000B0F6FD /* SiruDoorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526B7A612838C81000B0F6FD /* SiruDoorUITests.swift */; };
+		526B7A642838C81000B0F6FD /* SiruDoorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526B7A632838C81000B0F6FD /* SiruDoorUITestsLaunchTests.swift */; };
+		762FA7802990986D00314979 /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = 762FA77F2990986D00314979 /* Domain */; };
+		762FA7822990987000314979 /* Infrastructure in Frameworks */ = {isa = PBXBuildFile; productRef = 762FA7812990987000314979 /* Infrastructure */; };
+		7684298A28A8797E0043DDE8 /* BwSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 7684298928A8797E0043DDE8 /* BwSwiftUI */; };
+		76B9ED09296B27550006B130 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 76B9ED08296B27550006B130 /* Settings.bundle */; };
+		76C3A3942990A77B00CACFA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C3A3932990A77B00CACFA6 /* AppDelegate.swift */; };
+		76C3A3962990E63D00CACFA6 /* SiruDoorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C3A3952990E63D00CACFA6 /* SiruDoorApp.swift */; };
+		76C3A39A2990EADA00CACFA6 /* AppModule in Frameworks */ = {isa = PBXBuildFile; productRef = 76C3A3992990EADA00CACFA6 /* AppModule */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		526B7A542838C81000B0F6FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 526B7A3B2838C80F00B0F6FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 526B7A422838C80F00B0F6FD;
+			remoteInfo = SiruDoor;
+		};
+		526B7A5E2838C81000B0F6FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 526B7A3B2838C80F00B0F6FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 526B7A422838C80F00B0F6FD;
+			remoteInfo = SiruDoor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		526B7A432838C80F00B0F6FD /* SiruDoor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiruDoor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		526B7A4A2838C81000B0F6FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		526B7A4D2838C81000B0F6FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		526B7A532838C81000B0F6FD /* SiruDoorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiruDoorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		526B7A572838C81000B0F6FD /* SiruDoorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiruDoorTests.swift; sourceTree = "<group>"; };
+		526B7A5D2838C81000B0F6FD /* SiruDoorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiruDoorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		526B7A612838C81000B0F6FD /* SiruDoorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiruDoorUITests.swift; sourceTree = "<group>"; };
+		526B7A632838C81000B0F6FD /* SiruDoorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiruDoorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52BEA5BB2838C87D008FDC0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7651A5FF298D2D5500DCA206 /* SiruDoorModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SiruDoorModule; path = SiruDoor/SiruDoorModule; sourceTree = "<group>"; };
+		76B9ED08296B27550006B130 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		76C3A3932990A77B00CACFA6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76C3A3952990E63D00CACFA6 /* SiruDoorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiruDoorApp.swift; sourceTree = "<group>"; };
+		76F6FEA7289663CB00A32161 /* SiruDoor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SiruDoor.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		526B7A402838C80F00B0F6FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C3A39A2990EADA00CACFA6 /* AppModule in Frameworks */,
+				762FA7822990987000314979 /* Infrastructure in Frameworks */,
+				7684298A28A8797E0043DDE8 /* BwSwiftUI in Frameworks */,
+				762FA7802990986D00314979 /* Domain in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526B7A502838C81000B0F6FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526B7A5A2838C81000B0F6FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		526B7A3A2838C80F00B0F6FD = {
+			isa = PBXGroup;
+			children = (
+				7651A5FF298D2D5500DCA206 /* SiruDoorModule */,
+				526B7A452838C80F00B0F6FD /* SiruDoor */,
+				526B7A562838C81000B0F6FD /* SiruDoorTests */,
+				526B7A602838C81000B0F6FD /* SiruDoorUITests */,
+				526B7A442838C80F00B0F6FD /* Products */,
+				76CC945C298BB79D00BE2657 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		526B7A442838C80F00B0F6FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				526B7A432838C80F00B0F6FD /* SiruDoor.app */,
+				526B7A532838C81000B0F6FD /* SiruDoorTests.xctest */,
+				526B7A5D2838C81000B0F6FD /* SiruDoorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		526B7A452838C80F00B0F6FD /* SiruDoor */ = {
+			isa = PBXGroup;
+			children = (
+				76C3A3952990E63D00CACFA6 /* SiruDoorApp.swift */,
+				76C3A3932990A77B00CACFA6 /* AppDelegate.swift */,
+				76B9ED07296B27550006B130 /* Generated */,
+				526B7A4A2838C81000B0F6FD /* Assets.xcassets */,
+				76F6FEA7289663CB00A32161 /* SiruDoor.entitlements */,
+				52BEA5BB2838C87D008FDC0A /* Info.plist */,
+				526B7A4C2838C81000B0F6FD /* Preview Content */,
+			);
+			path = SiruDoor;
+			sourceTree = "<group>";
+		};
+		526B7A4C2838C81000B0F6FD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				526B7A4D2838C81000B0F6FD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		526B7A562838C81000B0F6FD /* SiruDoorTests */ = {
+			isa = PBXGroup;
+			children = (
+				526B7A572838C81000B0F6FD /* SiruDoorTests.swift */,
+			);
+			path = SiruDoorTests;
+			sourceTree = "<group>";
+		};
+		526B7A602838C81000B0F6FD /* SiruDoorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				526B7A612838C81000B0F6FD /* SiruDoorUITests.swift */,
+				526B7A632838C81000B0F6FD /* SiruDoorUITestsLaunchTests.swift */,
+			);
+			path = SiruDoorUITests;
+			sourceTree = "<group>";
+		};
+		76B9ED07296B27550006B130 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				76B9ED08296B27550006B130 /* Settings.bundle */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		76CC945C298BB79D00BE2657 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		526B7A422838C80F00B0F6FD /* SiruDoor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526B7A672838C81000B0F6FD /* Build configuration list for PBXNativeTarget "SiruDoor" */;
+			buildPhases = (
+				7600C264288E70DD00F6D832 /* Run Swiftlint */,
+				76B9ED05296B26A80006B130 /* Run LicensePlist */,
+				526B7A3F2838C80F00B0F6FD /* Sources */,
+				526B7A402838C80F00B0F6FD /* Frameworks */,
+				526B7A412838C80F00B0F6FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SiruDoor;
+			packageProductDependencies = (
+				7684298928A8797E0043DDE8 /* BwSwiftUI */,
+				762FA77F2990986D00314979 /* Domain */,
+				762FA7812990987000314979 /* Infrastructure */,
+				76C3A3992990EADA00CACFA6 /* AppModule */,
+			);
+			productName = SiruDoor;
+			productReference = 526B7A432838C80F00B0F6FD /* SiruDoor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		526B7A522838C81000B0F6FD /* SiruDoorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526B7A6A2838C81000B0F6FD /* Build configuration list for PBXNativeTarget "SiruDoorTests" */;
+			buildPhases = (
+				526B7A4F2838C81000B0F6FD /* Sources */,
+				526B7A502838C81000B0F6FD /* Frameworks */,
+				526B7A512838C81000B0F6FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				526B7A552838C81000B0F6FD /* PBXTargetDependency */,
+			);
+			name = SiruDoorTests;
+			productName = SiruDoorTests;
+			productReference = 526B7A532838C81000B0F6FD /* SiruDoorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		526B7A5C2838C81000B0F6FD /* SiruDoorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526B7A6D2838C81000B0F6FD /* Build configuration list for PBXNativeTarget "SiruDoorUITests" */;
+			buildPhases = (
+				526B7A592838C81000B0F6FD /* Sources */,
+				526B7A5A2838C81000B0F6FD /* Frameworks */,
+				526B7A5B2838C81000B0F6FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				526B7A5F2838C81000B0F6FD /* PBXTargetDependency */,
+			);
+			name = SiruDoorUITests;
+			productName = SiruDoorUITests;
+			productReference = 526B7A5D2838C81000B0F6FD /* SiruDoorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		526B7A3B2838C80F00B0F6FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					526B7A422838C80F00B0F6FD = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					526B7A522838C81000B0F6FD = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 526B7A422838C80F00B0F6FD;
+					};
+					526B7A5C2838C81000B0F6FD = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 526B7A422838C80F00B0F6FD;
+					};
+				};
+			};
+			buildConfigurationList = 526B7A3E2838C80F00B0F6FD /* Build configuration list for PBXProject "SiruDoor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 526B7A3A2838C80F00B0F6FD;
+			packageReferences = (
+				7684298828A8797E0043DDE8 /* XCRemoteSwiftPackageReference "BwSwiftUI" */,
+			);
+			productRefGroup = 526B7A442838C80F00B0F6FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				526B7A422838C80F00B0F6FD /* SiruDoor */,
+				526B7A522838C81000B0F6FD /* SiruDoorTests */,
+				526B7A5C2838C81000B0F6FD /* SiruDoorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		526B7A412838C80F00B0F6FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526B7A4E2838C81000B0F6FD /* Preview Assets.xcassets in Resources */,
+				76B9ED09296B27550006B130 /* Settings.bundle in Resources */,
+				526B7A4B2838C81000B0F6FD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526B7A512838C81000B0F6FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526B7A5B2838C81000B0F6FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7600C264288E70DD00F6D832 /* Run Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Swiftlint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "eval $MINT_EXECUTABLE run swiftlint --config configuration/swiftlint.yml\n";
+		};
+		76B9ED05296B26A80006B130 /* Run LicensePlist */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run LicensePlist";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if case $CONFIGURATION in Release*) true;; *) false;; esac; then\n  fail_if_missing_license=\"--fail-if-missing-license\"\nfi \n\nif (( ${+GITHUB_API_TOKEN} )); then\n  github_token=\"--github-token $GITHUB_ACCESS_TOKEN\"\nfi\n\neval $MINT_EXECUTABLE run LicensePlist --output-path $SRCROOT/SiruDoor/Generated/Settings.bundle --suppress-opening-directory $fail_if_missing_license $github_token\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		526B7A3F2838C80F00B0F6FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C3A3962990E63D00CACFA6 /* SiruDoorApp.swift in Sources */,
+				76C3A3942990A77B00CACFA6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526B7A4F2838C81000B0F6FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526B7A582838C81000B0F6FD /* SiruDoorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526B7A592838C81000B0F6FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526B7A642838C81000B0F6FD /* SiruDoorUITestsLaunchTests.swift in Sources */,
+				526B7A622838C81000B0F6FD /* SiruDoorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		526B7A552838C81000B0F6FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 526B7A422838C80F00B0F6FD /* SiruDoor */;
+			targetProxy = 526B7A542838C81000B0F6FD /* PBXContainerItemProxy */;
+		};
+		526B7A5F2838C81000B0F6FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 526B7A422838C80F00B0F6FD /* SiruDoor */;
+			targetProxy = 526B7A5E2838C81000B0F6FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		526B7A652838C81000B0F6FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		526B7A662838C81000B0F6FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		526B7A682838C81000B0F6FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SiruDoor/SiruDoor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 11;
+				DEVELOPMENT_ASSET_PATHS = "\"SiruDoor/Preview Content\"";
+				DEVELOPMENT_TEAM = D6A5KP29BP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SiruDoor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "しるドア";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "しるドアモニターにチャイムなどを通知します";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "チャイムなどの音を取得します";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MINT_EXECUTABLE = "eval $SWIFT_PACKAGES_PATH mint";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beowulf-tech.app.SiruDoor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_PACKAGES_PATH = "xcrun -sdk macosx swift run --package-path configuration/packages";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		526B7A692838C81000B0F6FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SiruDoor/SiruDoor.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 11;
+				DEVELOPMENT_ASSET_PATHS = "\"SiruDoor/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = D6A5KP29BP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SiruDoor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "しるドア";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "しるドアモニターにチャイムなどを通知します";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "チャイムなどの音を取得します";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MINT_EXECUTABLE = "eval $SWIFT_PACKAGES_PATH mint";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beowulf-tech.app.SiruDoor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Moons App SiruDoor AppStore Provisioning Profile";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_PACKAGES_PATH = "xcrun -sdk macosx swift run --package-path configuration/packages";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		526B7A6B2838C81000B0F6FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D6A5KP29BP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beowulf-tech.app.example.SiruDoorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SiruDoor.app/SiruDoor";
+			};
+			name = Debug;
+		};
+		526B7A6C2838C81000B0F6FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D6A5KP29BP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beowulf-tech.app.example.SiruDoorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SiruDoor.app/SiruDoor";
+			};
+			name = Release;
+		};
+		526B7A6E2838C81000B0F6FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D6A5KP29BP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beowulf-tech.app.example.SiruDoorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SiruDoor;
+			};
+			name = Debug;
+		};
+		526B7A6F2838C81000B0F6FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D6A5KP29BP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beowulf-tech.app.example.SiruDoorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SiruDoor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		526B7A3E2838C80F00B0F6FD /* Build configuration list for PBXProject "SiruDoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526B7A652838C81000B0F6FD /* Debug */,
+				526B7A662838C81000B0F6FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		526B7A672838C81000B0F6FD /* Build configuration list for PBXNativeTarget "SiruDoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526B7A682838C81000B0F6FD /* Debug */,
+				526B7A692838C81000B0F6FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		526B7A6A2838C81000B0F6FD /* Build configuration list for PBXNativeTarget "SiruDoorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526B7A6B2838C81000B0F6FD /* Debug */,
+				526B7A6C2838C81000B0F6FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		526B7A6D2838C81000B0F6FD /* Build configuration list for PBXNativeTarget "SiruDoorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526B7A6E2838C81000B0F6FD /* Debug */,
+				526B7A6F2838C81000B0F6FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7684298828A8797E0043DDE8 /* XCRemoteSwiftPackageReference "BwSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BlueEventHorizon/BwSwiftUI";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		762FA77F2990986D00314979 /* Domain */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Domain;
+		};
+		762FA7812990987000314979 /* Infrastructure */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Infrastructure;
+		};
+		7684298928A8797E0043DDE8 /* BwSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7684298828A8797E0043DDE8 /* XCRemoteSwiftPackageReference "BwSwiftUI" */;
+			productName = BwSwiftUI;
+		};
+		76C3A3992990EADA00CACFA6 /* AppModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppModule;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 526B7A3B2838C80F00B0F6FD /* Project object */;
+}
