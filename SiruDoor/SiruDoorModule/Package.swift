@@ -17,7 +17,8 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/BlueEventHorizon/BwNearPeer", branch: "main"),
         .package(url: "https://github.com/BlueEventHorizon/BwLogger", from: "5.0.0"),
-        .package(url: "https://github.com/SwiftGen/SwiftGenPlugin", from: "6.6.0"),
+        .package(url: "https://github.com/SwiftGen/SwiftGenPlugin", exact: "6.6.0"),
+        .package(url: "https://github.com/BlueEventHorizon/BwSwiftUI", branch: "main"),
     ],
     targets: [
         .target(
@@ -25,6 +26,7 @@ let package = Package(
             dependencies: [
                 "Infrastructure",
                 "Domain",
+                "BwSwiftUI",
                 "BwLogger",
             ],
             resources: [
